@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "http response in under 1 second",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
