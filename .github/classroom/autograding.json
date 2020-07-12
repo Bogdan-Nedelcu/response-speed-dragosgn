@@ -1,14 +1,24 @@
 {
   "tests": [
     {
-      "name": "http response in under 1 second",
+      "name": "Improve user response to under 500 ms",
       "setup": "npm install",
-      "run": "npm test",
+      "run": "npm test response_time",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 1
+      "points": 30
+    },
+    {
+      "name": "Delegate Expensive Taks",
+      "setup": "npm install",
+      "run": "npm test scheldue_tasks",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
     }
   ]
 }
